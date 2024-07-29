@@ -4,7 +4,7 @@
 #include <string>
 #define RED "\033[0:31m"
 #define GREEN "\033[0:32m"
-
+//kk
 int main(){
     while(true){
     std::ifstream last("v/last.txt");
