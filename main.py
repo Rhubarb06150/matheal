@@ -21,6 +21,7 @@ while True:
     r_value_float=float(r_value)
     if last!=0 and last!=r_value:
         print('différence')
+    print(r_value)
     last=r_value
     #print(r_value_float)
     date=datetime.today().strftime('%Y-%m-%d-%H-%M-%S')
@@ -30,3 +31,4 @@ while True:
     filelast.write(r_value)
     filedate.close()
     filelast.close()
+    time.sleep(1)
