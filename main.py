@@ -31,4 +31,3 @@ while True:
     filelast.write(r_value)
     filedate.close()
     filelast.close()
-    time.sleep(1)
